@@ -1,0 +1,92 @@
+[
+  {
+    "author": "The $200 CEO",
+    "profile_type": "Founder",
+    "source_platform": "Blog",
+    "url": "https://dev.to/the200dollarceo",
+    "theme": "AI agents / operations",
+    "observed_performance": "high signal",
+    "post_text": "I hired a full operations team for $200/month.\n\n10 AI agents running on a single machine.\n\nEach one had a role:\n\n– COO coordinating workflows\n– Sales agent managing pipeline\n– Finance agent tracking cash flow\n– Support agent handling tickets\n\nThe real breakthrough wasn’t the agents.\n\nIt was shared context.\n\nWe used time-based memory:\n\n– status updates expire in 24h\n– metrics expire in 7 days\n– decisions persist longer\n\nBefore that, agents contradicted each other constantly.\n\nAfter that, the system stabilized.\n\nThis wasn’t plug-and-play.\n\nBut it worked.\n\nThe future isn’t hiring.\n\nIt’s orchestration.",
+    "notes": "Strong system design, includes failure and solution, very high signal."
+  },
+  {
+    "author": "ClawBox Team",
+    "profile_type": "Founder",
+    "source_platform": "Blog",
+    "url": "https://gist.github.com/yalexx",
+    "theme": "small team leverage",
+    "observed_performance": "high signal",
+    "post_text": "$0 to $60K in 3 weeks.\n\nTeam size: 2.\n\nNo marketing spend.\n\nWe built a system that runs the business:\n\n– support in 5+ languages\n– email triage every 2 hours\n– shipping labels via API\n– automated invoicing\n\n80% of support handled automatically.\n\nEdge cases come with full context and draft replies.\n\nWe caught bugs this way.\n\nBilling vs shipping mismatches got flagged before shipping.\n\nNot perfect.\n\nBut enough to change the economics.\n\n2 people doing the work of 10.",
+    "notes": "Strong metrics, real workflow, includes bug example."
+  },
+  {
+    "author": "Cross-platform synthesis",
+    "profile_type": "Operator",
+    "source_platform": "Multiple",
+    "url": "",
+    "theme": "support automation",
+    "observed_performance": "high signal",
+    "post_text": "We were handling 150 support tickets a day with 5 people.\n\nAnd still falling behind.\n\nSo we changed the workflow:\n\n– AI checks inbox every 30 minutes\n– tags urgency + topic\n– drafts replies for common issues\n\nBefore:\n~4 hours/day on support\n\nAfter:\n~1 hour\n\nFirst 2 weeks were rough.\n\nThe system misclassified ~15% of tickets.\n\nWe had to rewrite prompts multiple times.\n\nBut once it stabilized:\n\nSame team.\n3x output.\n\nThe bottleneck wasn’t people.\n\nIt was how work flowed.",
+    "notes": "Strong before/after, includes iteration and failure."
+  },
+  {
+    "author": "Cross-platform synthesis",
+    "profile_type": "Operator",
+    "source_platform": "Multiple",
+    "url": "",
+    "theme": "email automation",
+    "observed_performance": "high signal",
+    "post_text": "I used to spend 4 hours a day on email.\n\nNow it's ~20 minutes.\n\nThe system:\n\n– checks inbox every 2 hours\n– summarizes threads\n– flags urgent messages\n– drafts replies\n\nMy job now:\n\nReview.\nEdit.\nSend.\n\nNot perfect.\n\nSometimes tone is off.\n\nBut last week it caught something I missed:\n\nCustomer changed shipping address mid-thread.\n\nThe system flagged it.\n\nAutomation isn’t about removing yourself.\n\nIt’s about removing what doesn’t need you.",
+    "notes": "Highly relatable, includes real workflow and edge case."
+  },
+  {
+    "author": "Cross-platform synthesis",
+    "profile_type": "Operator",
+    "source_platform": "Multiple",
+    "url": "",
+    "theme": "CRM workflow",
+    "observed_performance": "high signal",
+    "post_text": "We had a CRM problem.\n\nNot a data problem.\n\nReps weren’t updating deals.\n\nSo we changed one thing:\n\nEvery deal requires 3 fields.\n\n– last activity\n– next step\n– confidence level\n\nTakes ~10 seconds to update.\n\nThat’s it.\n\nBefore:\n\nPipeline was always outdated.\n\nAfter:\n\nForecast accuracy improved immediately.\n\nThe problem wasn’t the tool.\n\nIt was the friction.",
+    "notes": "Excellent minimal system design, high insight density."
+  },
+  {
+    "author": "Cross-platform synthesis",
+    "profile_type": "Operator",
+    "source_platform": "Multiple",
+    "url": "",
+    "theme": "automation failure",
+    "observed_performance": "high signal",
+    "post_text": "Automation doesn’t fail loudly.\n\nIt fails silently.\n\nWe had a system sending follow-ups automatically.\n\nLooked fine.\n\nUntil we checked the logs.\n\n12 failures in a month.\n\nNo alerts.\n\nNo visibility.\n\nMessages just didn’t send.\n\nFix was simple:\n\n– add failure tracking\n– log retries\n– alert on errors\n\nAutomation isn’t “set and forget”.\n\nIt’s set, monitor, fix.",
+    "notes": "Strong failure insight, very realistic."
+  },
+  {
+    "author": "Cross-platform synthesis",
+    "profile_type": "Operator",
+    "source_platform": "Multiple",
+    "url": "",
+    "theme": "data workflow",
+    "observed_performance": "high signal",
+    "post_text": "We were drowning in spreadsheets.\n\nThe fix wasn’t better dashboards.\n\nIt was reducing touchpoints.\n\nWe added:\n\n– automated duplicate checks every 2 hours\n– alerts for inconsistencies\n– structured input forms\n\nBefore:\n5 hours/week cleaning data\n\nAfter:\n~30 minutes\n\nSetup took a week.\n\nBut errors dropped significantly.\n\nThe problem wasn’t data.\n\nIt was how often we touched it.",
+    "notes": "Clear workflow + insight, strong closing."
+  },
+  {
+    "author": "Cross-platform synthesis",
+    "profile_type": "Operator",
+    "source_platform": "Multiple",
+    "url": "",
+    "theme": "sales workflow",
+    "observed_performance": "high signal",
+    "post_text": "Our sales cycle was 45 days.\n\nWe cut it to 25.\n\nNot by hiring.\n\nBy changing the workflow:\n\n– AI scores leads daily\n– follow-ups triggered automatically\n– engagement tracked in real time\n\nWe got it wrong at first.\n\nScoring model dropped ~10% of good leads.\n\nHad to retrain it.\n\nBut once fixed:\n\nBetter pipeline.\nShorter cycle.\n\nThe issue wasn’t volume.\n\nIt was prioritization.",
+    "notes": "Good tradeoff and iteration example."
+  },
+  {
+    "author": "Cross-platform synthesis",
+    "profile_type": "Operator",
+    "source_platform": "Multiple",
+    "url": "",
+    "theme": "small vs large teams",
+    "observed_performance": "high signal",
+    "post_text": "Small teams don’t move faster because they work harder.\n\nThey move faster because they coordinate less.\n\nWe compared two teams:\n\nTeam A (40 people):\n– multiple approvals\n– weekly sync meetings\n– slow deployment cycles\n\nTeam B (4 people):\n– async updates\n– automated QA\n– direct decision loops\n\nSame problem.\n\nDifferent systems.\n\nOne shipped weekly.\n\nThe other shipped daily.\n\nSpeed isn’t about effort.\n\nIt’s about structure.",
+    "notes": "Clear comparison, strong insight."
+  }
+]

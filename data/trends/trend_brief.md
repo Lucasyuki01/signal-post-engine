@@ -1,0 +1,5 @@
+- AI agents are moving from demos to real operating workflows
+- Small teams are replacing manual coordination with system-level automation
+- Lightweight internal tools are replacing bloated enterprise software
+- Reliability, monitoring, and workflow design are becoming bigger differentiators than raw model capability
+- Teams using AI for triage, summarization, and drafting are compressing execution cycles
